@@ -1,0 +1,30 @@
+@keyframes changeColor {
+    0% {background-image: linear-gradient(to right, rgb(0, 255, 179),rgb(226, 235, 226))}
+    50% {background-image: linear-gradient(to left, rgb(0, 255, 179),rgb(226, 235, 226))}}
+      body{
+        background-image: linear-gradient(to right, rgb(0, 255, 179),rgb(226, 235, 226));
+        animation-name: changeColor;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      .container{
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid orange;
+    margin-top: 55px;
+    margin-bottom:55px
+  }
+.container form{
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    background: #f3f3f3;
+  }
+  #submit_button{
+    position:relative;
+    margin-top: 15px;
+    margin-left: 37%;
+  }
+  .heading{
+    color: rgb(8, 231, 247);
+     font-size : 25px;
+  } 
